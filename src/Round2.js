@@ -143,6 +143,7 @@ export default  function Round2(props) {
                             border: '2px solid black' ,
                             padding: 'auto',
                             background:  state ===1? "url("+ (food===1? Bido:img)+")":'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
+                            backgroundSize: state ===9? "100px 100px":'auto',                         
                             backgroundImage: state ===1? '':'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
                             backgroundRepeat:'no-repeat',
                             color: state ===1? 'rgba(255, 255, 255, 0)':'white',
@@ -156,6 +157,7 @@ export default  function Round2(props) {
                             border: '2px solid black' ,
                             padding: 'auto',
                             background:  state ===2? "url("+(food===1? Bido:img)+")":'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
+                            backgroundSize: state ===9? "100px 100px":'auto', 
                             backgroundImage: state ===2? '':'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
                             backgroundRepeat:'no-repeat',
                             color: state ===2? 'rgba(255, 255, 255, 0)':'white'
@@ -169,6 +171,7 @@ export default  function Round2(props) {
                             border: '2px solid black' ,
                             padding: 'auto',
                             background:  state ===3? "url("+(food===1? Bido:img)+")":'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
+                            backgroundSize: state ===9? "100px 100px":'auto',
                             backgroundImage: state ===3? '':'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
                             backgroundRepeat:'no-repeat',
                             color: state ===3? 'rgba(255, 255, 255, 0)':'white'
@@ -184,6 +187,7 @@ export default  function Round2(props) {
                             border: '2px solid black' ,
                             padding: 'auto',
                             background:  state ===4? "url("+(food==1? Bido:img)+")":'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
+                            backgroundSize: state ===9? "100px 100px":'auto',
                             backgroundImage: state ===4? '':'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
                             backgroundRepeat:'no-repeat',
                             color: state ===4? 'rgba(255, 255, 255, 0)':'white'
@@ -197,6 +201,7 @@ export default  function Round2(props) {
                             border: '2px solid black' ,
                             padding: 'auto',
                             background:  state ===5? "url("+(food===1? Bido:img)+")":'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
+                            backgroundSize: state ===9? "100px 100px":'auto',
                             backgroundImage: state ===5? '':'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
                             backgroundRepeat:'no-repeat',
                             color: state ===5? 'rgba(255, 255, 255, 0)':'white'
@@ -210,6 +215,7 @@ export default  function Round2(props) {
                             border: '2px solid black' ,
                             padding: 'auto',
                             background:  state ===6? "url("+(food===1? Bido:img)+")":'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
+                            backgroundSize: state ===9? "100px 100px":'auto',
                             backgroundImage: state ===6? '':'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
                             backgroundRepeat:'no-repeat',
                             color: state ===6? 'rgba(255, 255, 255, 0)':'white'
@@ -225,6 +231,7 @@ export default  function Round2(props) {
                             border: '2px solid black' ,
                             padding: 'auto',
                             background:  state ===7? "url("+(food===1? Bido:img)+")":'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
+                            backgroundSize: state ===9? "100px 100px":'auto',
                             backgroundImage: state ===7? '':'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
                             backgroundRepeat:'no-repeat',
                             color: state ===7? 'rgba(255, 255, 255, 0)':'white'
@@ -238,6 +245,7 @@ export default  function Round2(props) {
                             border: '2px solid black' ,
                             padding: 'auto',
                             background:  state ===8? "url("+(food===1? Bido:img)+")":'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
+                            backgroundSize: state ===9? "100px 100px":'auto', 
                             backgroundImage: state ===8? '':'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
                             backgroundRepeat:'no-repeat',
                             color: state ===8? 'rgba(255, 255, 255, 0)':'white'
@@ -251,6 +259,7 @@ export default  function Round2(props) {
                             border: '2px solid black' ,
                             padding: 'auto',
                             background:  state ===9? "url("+(food===1? Bido:img)+")":'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
+                            backgroundSize: state ===9? "100px 100px":'auto', 
                             backgroundImage: state ===9? '':'linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)',
                             backgroundRepeat:'no-repeat',
                             color: state ===9? 'rgba(255, 255, 255, 0)':'white'
